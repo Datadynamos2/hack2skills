@@ -43,6 +43,9 @@
     color: white;
 }
 
+#User{
+    text-decoration: none;
+}
 /* Additional styles for form and buttons */
 body {
     position: relative;

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GeneMaster</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="doctor.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark second" >
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">GeneMaster</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Profile
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Edit Profile</a>
+                    <a class="dropdown-item" href="#">LogOut</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Upload Disorder</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Validation Queue</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Validation History</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Collaboration</a>
+            <a href="#" class="list-group-item list-group-item-action bg-light">Research and Publication</a>
+        </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+        <div class="container-fluid">
+            <h1 class="mt-4">Hello Dr. username,</h1>
+            <p>This is the landing page wherein the analytics will be shown. Insights into the number of validations, contributions, and feedback received.</p>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+</script>
+</body>
+</html>
