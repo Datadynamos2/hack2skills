@@ -49,7 +49,7 @@
 /* Additional styles for form and buttons */
 body {
     position: relative;
-    background-image: url('signbg.jpg'); 
+    background-image: url('organic-wheat-field_bg.webp'); 
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -106,18 +106,21 @@ form {
     font-weight: bolder;
     background-color:rgb(241, 241, 241);
     font-size: 14px;
-    border: 3px transparent;
+    border: 3px solid;
     transition: 0.5s;
+    width:500px;
+    border-radius: 20px;
+    border-color: #ffffff;
 }
 
 .button2:hover{
    
     /* background-image: linear-gradient(45deg, #305ad7, #305ad7); */
-    background-color:#305ad7;
-    color: white;
+    background-color:rgb(255, 245, 133);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border: 3px solid;
-    border-color: #4bfc83;
+    border-color: #ffffff;
 }
 
 .min-vh-100 {
